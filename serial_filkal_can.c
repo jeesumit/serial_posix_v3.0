@@ -14,7 +14,7 @@
 double lat_p,lon_p,lat_pa,lon_pa,lat_pb,lon_pb;
 double ang_ba=0.0, ang_ab=0.0, dis_bc=0.0, dis_ab=0.0, dis_ac=0.0, ang_ac=0.0, cte_ab=0.0, diffang_h=0.0;
 int cte2can(double kval);
-char filname[] = "./path_deployment_v2.0/data/path_points.txt";
+char filname[] = "./path_deployment/data/path_points.txt";
 
 /*----------------------KALMAN GAIN PARAMETERS --------------------------*/
 double cur_lat =0.0,cur_lng=0.0,prev_lat=0.0,prev_lng=0.0;
